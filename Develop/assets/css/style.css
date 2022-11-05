@@ -1,3 +1,4 @@
+/* order the styles based on the order they appear in index */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header can be its own element, not a class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,17 @@ body {
     color: #ffffff;
 }
 
+/* can combine into the header element */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* seo is the class */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* nav element */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,29 @@ body {
     font-size: 20px;
 }
 
+/* nav element list */
 .header div ul {
     list-style-type: none;
 }
 
+/* nav element list items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* nav links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraphs */
 p {
     font-size: 16px;
 }
 
+/* main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +68,7 @@ p {
     background-position: center;
 }
 
+/* section images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +79,14 @@ p {
     margin-left: 25px;
 }
 
+/* main element */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* aside element */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +98,7 @@ p {
     background-color: #2589bd;
 }
 
+/* the aside classes are duplicates, only need one class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +114,7 @@ p {
     color: #ffffff;
 }
 
+/* the aside header classes are duplicates, only need one class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +130,7 @@ p {
     text-align: center;
 }
 
+/* the aside img classes are duplicates, only need one class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +149,7 @@ p {
     max-width: 150px;
 }
 
+/* the main classes are duplicates, only need one class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +177,7 @@ p {
     color: #ffffff;
 }
 
+/* the main img classes are duplicates, only need one class */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +190,7 @@ p {
     max-height: 200px;
 }
 
+/* the main header classes are duplicates, only need one class */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +206,7 @@ p {
     font-size: 36px;
 }
 
+/* footer can be its own element, not a class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +214,7 @@ p {
     text-align: center;
 }
 
+/* can combine into the footer element */
 .footer h2 {
     font-size: 20px;
 }
