@@ -54,11 +54,13 @@ a {
 }
 
 /* figure element */
-figure img {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    object-fit: cover;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* main element */
@@ -69,7 +71,7 @@ main {
 }
 
 /* the main classes are duplicates, only need one class */
-.main-content {
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,7 +87,7 @@ h2 {
 }
 
 /* the main img classes are duplicates, only need one class */
-.main-content img {
+.content img {
     max-height: 200px;
 }
 
