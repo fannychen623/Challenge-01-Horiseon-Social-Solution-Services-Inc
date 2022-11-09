@@ -10,25 +10,25 @@ body {
 }
 
 /* header can be its own element, not a class */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* can combine into the header element */
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* seo is the class */
-.header h1 .seo {
+/* seo is the id */
+#seo {
     color: #d9dcd6;
 }
+
 /* nav element */
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,12 +37,12 @@ body {
 }
 
 /* nav element list */
-.header div ul {
+nav ul {
     list-style-type: none;
 }
 
 /* nav element list items */
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -53,19 +53,40 @@ a {
     text-decoration: none;
 }
 
-/* paragraphs */
-p {
-    font-size: 16px;
-}
-
-/* main image */
-.hero {
+/* figure element */
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
+}
+
+/* main element */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* the main classes are duplicates, only need one class */
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the main header classes are duplicates, only need one class */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* the main img classes are duplicates, only need one class */
+.main-content img {
+    max-height: 200px;
 }
 
 /* section images */
@@ -79,15 +100,13 @@ p {
     margin-left: 25px;
 }
 
-/* main element */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* paragraphs */
+p {
+    font-size: 16px;
 }
 
 /* aside element */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -99,122 +118,29 @@ p {
 }
 
 /* the aside classes are duplicates, only need one class */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* the aside header classes are duplicates, only need one class */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* the aside img classes are duplicates, only need one class */
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* the main classes are duplicates, only need one class */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* the main img classes are duplicates, only need one class */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* the main header classes are duplicates, only need one class */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* footer can be its own element, not a class */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-/* can combine into the footer element */
-.footer h2 {
     font-size: 20px;
+    text-align: center;
 }
