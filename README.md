@@ -1,15 +1,26 @@
-# Module 01 Challenge
+# Module 01 Challenge- Horiseon Social Solution Services, Inc.
+
+>**Application Link:** [Horiseon Social Solution Services, Inc.](https://fannychen623.github.io/Challenge-01-Horiseon-Social-Solution-Services-Inc/)
+>
+>**View:** [Description](#description) / [Change Details](#change-details)
+>
+>**Site Preview:**
+>
+>![Horiseon Social Solution Services, Inc.](/Assets/01-html-css-git-homework-demo.png "Horiseon Social Solution Services, Inc.")
+
+## **DESCRIPTION**
+
 > Topic Assessed: **HTML**, **CSS**, and **Git**
 
-## **My Task**
+### **My Task**
 
-On-the-job ticket&mdash; **Refactoring** existing code/site to make it more accessible.
+*Refactor* existing code/site to make it more accessible.
 
 > Accessible sites rank higher in search engines. 
 >
 > Increased assessibility helps companies avoid litigation.
 
-Adhere to the **Scout Rule**&mdash; always leave the code a little cleaner than when you found it.
+Adhere to the *Scout Rule*&mdash; always leave the code a little cleaner than when you found it.
 
 > Exceed expectations and improve the codebase for long-term sustainability. 
 >
@@ -45,7 +56,7 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-## **Update Details**
+## **CHANGE DETAILS**
 
 ### HTML Updates
 * **Comments**: Added descriptive comments before each element/section on the page.
