@@ -56,7 +56,7 @@ THEN I find a concise, descriptive title
 * **Hero Title**: Added title to hero image for supplemental information tooltip.
 * **Classes**: Consolidated classes of the same style.
 
-    | | | | | |
+    | | | | | Consolidated Class |
     |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
     | search-engine-optimization | online-reputation-management | social-media-marketing | &#8594; | **content** |
     | benefit-lead | benefit-brand | benefit-cost | &#8594; | **benefit** |
@@ -80,9 +80,8 @@ THEN I find a concise, descriptive title
   * Such as, properties under the `ul` and `ul li` selectors can be combined without affecting the page output.
 * **Duplicate Selectors**: Consolidated selectors of the same style.
 
-    | | | |
-    |  :---:  |  :---:  |  :---:  |
     | **Class Selectors** | **Descendant Selectors** | **Descendant Selectors**  |
+    |  :---:  |  :---:  |  :---:  |
     | .search-engine-optimization | .search-engine-optimization h2 | .search-engine-optimization img |
     | .online-reputation-management | .online-reputation-management h2 | .online-reputation-management img |
     | .social-media-marketing | .social-media-marketing h2 | .social-media-marketing img |
@@ -90,9 +89,8 @@ THEN I find a concise, descriptive title
     | **Class Selector** | **Element Selector** | **Descendant Selector** |
     | .content | h2 | .content img |
 
-    | | | |
-    |  :---:  |  :---:  |  :---:  |
     | **Class Selectors** | **Descendant Selectors** | **Descendant Selectors**  |
+    |  :---:  |  :---:  |  :---:  |
     | .benefit-lead | .benefit-lead h3 | .benefit-lead img |
     | .benefit-brand | .benefit-brand h3 | .benefit-brand img |
     | .benefit-cost | .benefit-cost h3 | .benefit-cost img |
